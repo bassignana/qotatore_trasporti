@@ -8,8 +8,14 @@ from streamlit_folium import st_folium
 df = (pd.read_csv('car_db_metric_small.csv'))
 
 st.title('Quotatore trasporti con bisarca')
+st.success("""
+Ciao Lea, questo sarà il nostro sito demo. 
+Per ora ho solo creato un abbozzo di algoritmo per il calcolo del percorso e del prezzo.
+Non sapendo cosa ti serve potrebbe essere del tutto inutile, ma almeno ho già predisposto
+un po' di cose che ci saranno utili per dopo. 
+""")
 st.image('bisarca1.jpg')
-st.caption('Ok, so che non è una bisarca, ma questa foto è troppo bella :)')
+st.caption('Ok, non è proprio una bisarca, ma questa foto è troppo bella :)')
 
 # Initialize session state
 if 'route_calculated' not in st.session_state:

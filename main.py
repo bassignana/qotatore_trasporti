@@ -7,6 +7,8 @@ from streamlit_folium import st_folium
 
 df = (pd.read_csv('car_db_metric_small.csv'))
 
+# Test comment
+
 st.title('Quotatore trasporti con bisarca')
 st.success("""
 Ciao Lea, questo sarà il nostro sito demo. 
